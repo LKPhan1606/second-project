@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./css/signUp.css" />
+</head>
+
+<body>
+
+    <div class="box">
+        <form action="/~s3939858/assignment-3-final-website-team_18_cosc3046_sep23/php/signUp.php" method="post">
+            <div class="registrationForm">
+                <h1 class="createHeading">Register</h1>
+                <div class="firstName">
+                    <label for="firstName" class="label">First Name</label>
+                    <input id="firstName" name="firstName" type="text" class="input">
+                    <span role="alert" id="noFirstName" aria-hidden="true" hidden="hidden">Please enter first
+                        name</span>
+                    <span role="alert" id="firstNameNumber" aria-hidden="true" hidden="hidden">Name has number</span>
+                </div>
+
+                <div class="lastName">
+                    <label for="lastName" class="label">Last Name</label>
+                    <input id="lastName" name="lastName" type="text" class="input">
+                    <span role="alert" id="noLastName" aria-hidden="true" hidden="hidden">Please enter last name</span>
+                    <span role="alert" id="lastNameNumber" aria-hidden="true" hidden="hidden">Name has number</span>
+                </div>
+
+                <div class="username">
+                    <label for="username" class="label">Username</label>
+                    <input id="username" name="username" type="text" class="input">
+                    <span role="alert" id="noUsername" aria-hidden="true" hidden="hidden">Please enter username</span>
+                </div>
+
+                <div class="email">
+                    <label for="email" class="label">Email</label>
+                    <input type="email" id="email" name="email">
+                    <span role="alert" id="noEmail" aria-hidden="true" hidden="hidden">Please enter email</span>
+                    <span role="alert" id="invalidEmail" aria-hidden="true" hidden="hidden">Email is invalid</span>
+                </div>
+
+                <div class="password">
+                    <label for="password" class="label">Password</label>
+                    <input type="password" id="password" name="password" minlength="8" required />
+                    <span role="alert" id="noPassword" aria-hidden="true" hidden="hidden">Please enter password</span>
+                </div>
+
+                <button type="submit" name="submit" class="createButton">Sign Up</button>
+            </div>
+        </form>
+
+    </div>
+
+    <script src="./scripts/formValidationSU.js"></script>
+
+
+    <form action="./signIn.html">
+        <button type="submit" name="returnLog" class="returnLog">Go back to log in</button>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+.logIn {
+    margin: 0 auto;
+    width: 600px;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 2px solid #333;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #3ae1ff;
+    color: rgb(255, 255, 255);
+}
+
+.formHeading {
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+    margin: 10px;
+    background-color: #0055A4;
+    color: white;
+    padding: 15px;
+    left: 200px;
+}
+
+.createAccount {
+    text-align: center;
+    background-color: #FF6B6B;
+    color: white;
+    padding: 15px 15px;
+    position: absolute;
+    top: 600px;
+    left: 775px;
+    margin: 80px;
+}
